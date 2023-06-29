@@ -130,3 +130,95 @@ Phone Number: +5541991567312
 Image: C:/Users/Luis Felipe Vidal/Downloads/icone-app-192 (3).png
 Caption: oiiiii
 --------------------
+Date: 29/6/2023
+Time: 12:5
+Group ID: Casp - Bot WhatsApp
+
+Message: Teste msg normal grupo
+--------------------
+Date: 29/6/2023
+Time: 12:6
+Group ID: Casp - Bot WhatsApp
+
+Message: teste msg normal grupoo
+--------------------
+Date: 29/6/2023
+Time: 16:7
+Group ID: Casp - Bot WhatsApp 
+Message: hello
+--------------------
+Date: 29/6/2023
+Time: 16:12
+Group ID: ElRNmqKSN4kLwFNMmgQhwY
+Message: hello
+--------------------
+Date: 29/6/2023
+Time: 16:15
+Group ID: ElRNmqKSN4kLwFNMmgQhwY
+Image: C:/Users/Luis Felipe Vidal/Downloads/icone-app-192 (3).png
+Caption: Teste msg grupo
+--------------------
+Date: 29/6/2023
+Time: 16:20
+Group ID: IQoqlBiOsgS66n6oHxsGZH
+Message: Teste de envio de massa
+--------------------
+Date: 29/6/2023
+Time: 16:28
+Group ID: 41991567312
+
+Message: Teste
+--------------------
+Date: 29/6/2023
+Time: 16:33
+Phone Number: +5541991567312
+Message: teste
+--------------------
+Date: 29/6/2023
+Time: 16:34
+Phone Number: +5541991567312
+Image: C:/Users/Luis Felipe Vidal/Downloads/icone-app-192 (3).png
+Caption: Teste 2
+--------------------
+Date: 29/6/2023
+Time: 16:34
+Phone Number: +5541991567312
+Image: C:/Users/Luis Felipe Vidal/Downloads/icone-app-192 (3).png
+Caption: Teste 2
+--------------------
+Date: 29/6/2023
+Time: 16:35
+Group ID: IQoqlBiOsgS66n6oHxsGZH
+Image: C:/Users/Luis Felipe Vidal/Downloads/icone-app-192 (3).png
+Caption: Teste em grupo
+--------------------
+Date: 29/6/2023
+Time: 16:36
+Group ID: IQoqlBiOsgS66n6oHxsGZH
+Image: C:/Users/Luis Felipe Vidal/Downloads/LETICIAA.jpg
+Caption: Teste com numero e grupo
+--------------------
+Date: 29/6/2023
+Time: 16:37
+Group ID: IQoqlBiOsgS66n6oHxsGZH
+Image: C:/Users/Luis Felipe Vidal/Downloads/LETICIAA.jpg
+Caption: Teste com numero e grupo
+--------------------
+Date: 29/6/2023
+Time: 16:37
+Phone Number: +5541991567312
+Image: C:/Users/Luis Felipe Vidal/Downloads/LETICIAA.jpg
+Caption: Teste com numero e grupo
+--------------------
+Date: 29/6/2023
+Time: 16:37
+Group ID: IQoqlBiOsgS66n6oHxsGZH
+Image: C:/Users/Luis Felipe Vidal/Downloads/LETICIAA.jpg
+Caption: Teste com numero e grupo
+--------------------
+Date: 29/6/2023
+Time: 16:38
+Phone Number: +5541991567312
+Image: C:/Users/Luis Felipe Vidal/Downloads/LETICIAA.jpg
+Caption: Teste com numero e grupo
+--------------------

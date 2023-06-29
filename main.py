@@ -76,10 +76,17 @@ class App(customtkinter.CTk):
 
             for number in arr_numbers:
                 time.sleep(3)
+                number = number.strip()
                 if self.filename is None or self.filename == '':
-                    pywhatkit.sendwhatmsg_instantly("+55" + str(number), str(textbox_msg))
+                    if number.isdigit():
+                        pywhatkit.sendwhatmsg_instantly("+55" + str(number), str(textbox_msg))
+                    else:
+                        pywhatkit.sendwhatmsg_to_group_instantly(str(number), str(textbox_msg))
                 else:
-                    pywhatkit.sendwhats_image("+55" + str(number), self.filename, str(textbox_msg))
+                    if number.isdigit():
+                        pywhatkit.sendwhats_image("+55" + str(number), self.filename, str(textbox_msg))
+                    else:
+                        pywhatkit.sendwhats_image(number, self.filename, str(textbox_msg))
 
             self.setValoresDefault()
 
