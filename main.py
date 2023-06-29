@@ -97,6 +97,7 @@ class App(customtkinter.CTk):
         self.textbox_number.delete("0.0", "end")
         self.textbox_msg.delete("0.0", "end")
         self.label_log.configure(text='Mensagens enviadas com sucesso!', fg_color="green")
+        self.filename = ''
 
 
 if __name__ == "__main__":
