@@ -1,9 +1,11 @@
+# -*- coding: utf-8 -*-
+import sys
 import customtkinter
 from tkinter import filedialog
 import pywhatkit
 import time
 
-customtkinter.set_appearance_mode("Dark")  # Modes: "System" (standard), "Dark", "Light"
+customtkinter.set_appearance_mode("Light")  # Modes: "System" (standard), "Dark", "Light"
 customtkinter.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
 
 
@@ -67,7 +69,6 @@ class App(customtkinter.CTk):
         customtkinter.set_appearance_mode(new_appearance_mode)
 
     def iniciar_envio(self):
-
         try:
             textbox_number = self.textbox_number.get("0.0", "end")
             textbox_msg = self.textbox_msg.get("0.0", "end")
@@ -86,11 +87,12 @@ class App(customtkinter.CTk):
                     if number.isdigit():
                         pywhatkit.sendwhats_image("+55" + str(number), self.filename, str(textbox_msg))
                     else:
-                        pywhatkit.sendwhats_image(number, self.filename, str(textbox_msg))
+                        pywhatkit.sendwhats_image(str(number), self.filename,  textbox_msg)
 
             self.setValoresDefault()
 
         except Exception as e:
+            print(e)
             self.label_log.configure(text='Ocorreu um erro', fg_color="red")
 
     def selecionar_img(self):
